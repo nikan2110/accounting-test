@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { State, UserProfile } from "../../types";
-import { EDIT_PROFILE, PUT_TOKEN } from "../../Utils/constants";
-import { password, profile, update } from "../../Utils/routes";
+import { EDIT_PROFILE, PUT_TOKEN } from "../../utils/constants";
+import { password, profile, update } from "../../utils/routes";
 import ChangePassword from "./ChangePassword";
 import EditProfile from "./EditProfile";
+
+
 
 type Active = string | void;
 

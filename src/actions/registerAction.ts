@@ -1,5 +1,5 @@
 import { Dispatch, UserProfile } from "../types";
-import { base_url, createToken, PUT_USER } from "../Utils/constants";
+import { base_url, createToken, PUT_USER } from "../utils/constants";
 import { putTokenAction } from "./changePasswordAction";
 import { errorAction } from "./errorAction";
 

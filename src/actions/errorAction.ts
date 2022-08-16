@@ -1,4 +1,4 @@
-import { ERROR } from "../Utils/constants";
+import { ERROR } from "../utils/constants";
 
 
 

@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { upgradeDataAction } from "../../actions/loginUpdateAction";
 import { ChangePageType, State, UserProfile } from "../../types";
-import { profile } from "../../Utils/routes";
+import { profile } from "../../utils/routes";
 
 const EditProfile = ({ setPage }: { setPage: ChangePageType }) => {
   const { token } = useSelector<State, State>((state) => state);

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { authorizationAction } from "../../actions/loginUpdateAction";
-import { profile } from "../../Utils/routes";
+import { profile } from "../../utils/routes";
 
 const Login = () => {
   const [login, setLogin] = useState("");

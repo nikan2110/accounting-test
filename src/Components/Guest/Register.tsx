@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { registerAction } from "../../actions/registerAction";
 import { UserProfile } from "../../types";
-import { profile } from "../../Utils/routes";
+import { profile } from "../../utils/routes";
 
 const Register = () => {
   const [login, setLogin] = useState("");

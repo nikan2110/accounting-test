@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { error } from "../Utils/routes";
+import { error } from "../utils/routes";
 
 const Error = ({ errorMessage }: { errorMessage: string }) => {
   const navigate = useNavigate();

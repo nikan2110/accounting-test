@@ -1,5 +1,5 @@
 import { Action, Dispatch, State } from "../types";
-import { LOGOUT, PUT_TOKEN } from "../Utils/constants";
+import { LOGOUT, PUT_TOKEN } from "../utils/constants";
 
 // export const localStorageEnhancer =
 //   ({ dispatch, getState }: { dispatch: Dispatch; getState: State }) =>

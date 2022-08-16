@@ -1,5 +1,5 @@
 import { Action, State } from "../types";
-import { ERROR, LOGOUT, PUT_STATE, PUT_TOKEN, PUT_USER } from "../Utils/constants";
+import { ERROR, LOGOUT, PUT_STATE, PUT_TOKEN, PUT_USER } from "../utils/constants";
 
 export const initialState: State = {};
 

@@ -1,14 +1,14 @@
 import React from "react";
 import { useRoutes } from "react-router-dom";
 import "./App.css";
-import Error from "./Components/Error";
-import Guest from "./Components/Guest";
-import Login from "./Components/Guest/Login";
-import Register from "./Components/Guest/Register";
-import Home from "./Components/Home";
-import Profile from "./Components/Profile";
-import ChangePassword from "./Components/Profile/ChangePassword";
-import EditProfile from "./Components/Profile/EditProfile";
+import Error from "./components/Error";
+import Guest from "./components/Guest";
+import Login from "./components/Guest/Login";
+import Register from "./components/Guest/Register";
+import Home from "./components/Home";
+import Profile from "./components/Profile";
+import ChangePassword from "./components/Profile/ChangePassword";
+import EditProfile from "./components/Profile/EditProfile";
 import {
   error,
   guest,
@@ -18,7 +18,7 @@ import {
   profile,
   register,
   update,
-} from "./Utils/routes";
+} from "./utils/routes";
 
 function App() {
   const element = useRoutes([

@@ -1,5 +1,5 @@
 import { Dispatch, PasswordData } from "../types";
-import { base_url, createToken, PUT_TOKEN } from "../Utils/constants";
+import { base_url, createToken, PUT_TOKEN } from "../utils/constants";
 import { errorAction } from "./errorAction";
 
 export const putTokenAction = (token: string) => ({

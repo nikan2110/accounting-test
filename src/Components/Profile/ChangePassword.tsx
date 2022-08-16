@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { changePasswordAction } from "../../actions/changePasswordAction";
 import { ChangePageType, PasswordData, State, UserProfile } from "../../types";
-import { profile } from "../../Utils/routes";
+import { profile } from "../../utils/routes";
 
 const ChangePassword = ({ setPage }: { setPage: ChangePageType }) => {
   const { login } = useSelector<State, UserProfile>((state) => state.user!);

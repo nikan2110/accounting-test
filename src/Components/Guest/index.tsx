@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { State } from "../../types";
-import { guest, login, register } from "../../Utils/routes";
+import { guest, login, register } from "../../utils/routes";
 import Error from "../Error";
 import Login from "./Login";
 import Register from "./Register";

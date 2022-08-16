@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { putStateAction } from "../actions/fillStateAction";
 import { State, UserProfile } from "../types";
-import { guest, profile, register } from "../Utils/routes";
+import { guest, profile, register } from "../utils/routes";
 import Guest from "./Guest";
 import Profile from "./Profile";
 
